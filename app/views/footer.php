@@ -5,17 +5,16 @@
             <div class="copyright">
                <h2>Margalapis UAB.</h2>
                <?php
-									function metai()
-									{
-										 $k_metai = 2021; // Puslapio sukūrimo metai
-										 $d_metai = date('Y'); // Dabartiniai metai
-										 if ($d_metai > $k_metai) {
-												echo $k_metai . '—' . $d_metai;
-										 } else {
-												echo $k_metai;
-										 }
-									}
-								?>
+                  function metai() {
+                     $k_metai = 2021; // Puslapio sukūrimo metai
+                     $d_metai = date('Y'); // Dabartiniai metai
+                     if ($d_metai > $k_metai) {
+                     echo $k_metai . '—' . $d_metai;
+                     } else {
+                       echo $k_metai;
+                     }
+                  }
+               ?>
                <p>© <?php metai() ?> Margalapis. Visos teisės saugomos.</p>
                <p>Sumanyta Robirurk’o bei Albuck’o.</p>
             </div>
